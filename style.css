@@ -1,0 +1,138 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	background-color:#dddddd;
+	color:white;
+	font-family:Lato;
+	font-size:16px;
+	line-height:1.8em;
+}
+
+.anchor {
+	padding-top:50px; 
+	margin-top:-50px;
+	display: block;
+}
+
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+.whitetextarea{
+	width:80%;
+	margin:10px auto;
+	padding:40px;
+	box-sizing:border-box;
+	overflow:hidden;
+	color: #000;
+	background-color:#fff;
+}
+
+.grid{
+	margin-top:50px;
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+}
+
+.gridColum{
+	display:grid;
+}
+
+.GridCenterItem{
+	overflow:hidden;
+	justify-self: center;
+}
+
+.gridImage{
+	width: 300px;
+}
+
+#main{
+	float:left;
+	width:75%;
+}
+
+#beaconimg{
+	float:right;
+	width:15%;
+}
+
+#main-header{
+	background-color:black;
+	color:gray;
+	min-height:200px;
+	padding-top:80px;
+	margin-bottom:100px;
+}
+
+#main-header h1{
+	
+}
+
+#navbar{
+	top:0px;
+	position:fixed;
+	background-color:white;
+	color:black;
+	width:100%;
+}
+
+#navbar ul{
+	padding:0;
+	list-style:none;
+}
+
+#navbar li{
+	list-style: none;
+	display: inline-block;
+	float: right;
+	line-height: 50px;
+}
+
+#navbar a{
+	color:black;
+	text-decoration:none;
+	font-size:16px;
+	padding:0 18px;
+	display: block;
+
+}
+
+#navbar a:hover{
+	color:#3d3d3d;
+}
+
+#myChart{
+	margin-top: 50px;
+}
+
+#main-footer{
+	margin-top:100px;
+	background-color:black;
+	color:white;
+	min-height:150px;
+	padding-top:80px;
+}
+
+@media(max-width:1300px){
+	#beaconimg{
+		padding-top:20px;
+		width:100%;
+		display:block;
+	}
+
+	#main{
+		width:100%;
+	}
+	
+	.grid{
+		margin-top:50px;
+		display: grid;
+		grid-template-columns: 100%;
+	}
+}
